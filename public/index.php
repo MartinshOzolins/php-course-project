@@ -1,4 +1,7 @@
 <?php
+// TO START LOCAL PHP SERVER FOR DEVELOPMENT (serves 'public' as the root folder):
+// php -S localhost:8000 -t public
+
 // Requires autoload.php from vendor folder to use classes without imports
 require __DIR__ . "/../vendor/autoload.php";
 

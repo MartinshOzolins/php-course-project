@@ -7,9 +7,10 @@ $router->get("/listings/create", "ListingController@create", ["auth"]);
 
 
 $router->get("/listings/edit/{id}", "ListingController@edit", ["auth"]);
+$router->get("listings/search", "ListingController@search");
 $router->get("/listings/{id}", "ListingController@show"); // The {id} is a placeholder for the dynamic part of the URL.
 
-//
+
 $router->post("/listings", "ListingController@store", ["auth"]);
 
 
